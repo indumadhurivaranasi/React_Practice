@@ -9,6 +9,7 @@ import HookCounter from "./components/HookCounter";
 import HookStateObj from "./components/HookStateObj";
 import UseEffectCounter from "./components/UseEffectCounter";
 import UseEffectMouse from "./components/UseEffectMouse";
+import DataFetchingUseEffect from "./components/DataFetchingUseEffect";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
       <List></List>
       <HookCounter />
       <HookStateObj></HookStateObj>  */}
-      <UseEffectCounter></UseEffectCounter>
-      <UseEffectMouse></UseEffectMouse>
+      {/* <UseEffectCounter></UseEffectCounter>
+      <UseEffectMouse></UseEffectMouse> */}
+      <DataFetchingUseEffect/>
     </div>
   );
 }
